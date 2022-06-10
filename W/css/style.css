@@ -1,0 +1,39 @@
+#cat{
+    width:100px;
+    background-color: blue;
+    
+}
+#cat:hover{
+    width: 400px;
+    padding: 20px;
+    background-color: blueviolet;
+    transition-duration: 1s;
+    transition-property: all 1s auto;
+    transition: ease-in-out;
+}
+#doge{
+    width: 100px;
+    background-color: orange;
+
+}
+#doge:hover{
+    width: 400px;
+    padding: 20px;
+    background-color: aqua;
+    transition-duration: 1s;
+    transition-property: all 1s auto;
+    transition: ease-in-out;
+}
+
+#frog{
+    width: 100px;
+    background-color: green;
+}
+#frog:active{
+    width: 400px;
+    padding: 20px;
+    background-color: crimson;
+    transition-duration: 1s;
+    transition-property: all 1s auto;
+    transition: ease-in-out;
+}
